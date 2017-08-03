@@ -9,6 +9,6 @@ public class TestJava {
     public static void main( String[] args )
 
     {
-        System.out.println( "Hello111111 World!22222" );
+        System.out.println( "Hello111111 jenkins" );
     }
 }
