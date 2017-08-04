@@ -9,6 +9,6 @@ public class TestJava {
     public static void main( String[] args )
 
     {
-        System.out.println( "Hello111111 jenkins" );
+        System.out.println( "Hello111111 jenkins_finish" );
     }
 }
