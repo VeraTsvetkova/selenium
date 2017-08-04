@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="1f0c9fbc-e994-4e0a-99a1-7cf9b3348ef6" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/org/test/AppTest.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
@@ -10,10 +11,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.test.AppTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.test.AppTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/org.test.AppTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/org.test.AppTest.txt" />
+=======
+    <list default="true" id="ff8569f6-ebd1-4a5f-80d9-2ddbd299d7fd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/org/test/TestJava.class" afterPath="$PROJECT_DIR$/target/test-classes/org/test/TestJava.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/org/test/TestJava.java" afterPath="$PROJECT_DIR$/src/test/java/org/test/TestJava.java" />
+>>>>>>> Stashed changes
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +53,11 @@
               <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding>
                 <element signature="e#145#146#0" expanded="true" />
+<<<<<<< Updated upstream
                 <element signature="e#208#209#0" expanded="true" />
+=======
+                <element signature="e#205#206#0" expanded="true" />
+>>>>>>> Stashed changes
               </folding>
             </state>
           </provider>
@@ -76,22 +84,6 @@
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="15355479c3264c0485b9fff21d791c4c1d77afde" />
-      </map>
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -135,6 +127,11 @@
       </expand>
       <select />
     </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1924" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -194,6 +191,7 @@
       <pane id="Scratches" />
     </panes>
   </component>
+<<<<<<< Updated upstream
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="project.structure.last.edited" value="Global Libraries" />
@@ -201,6 +199,8 @@
     <property name="project.structure.side.proportion" value="0.32906404" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Test3" />
   </component>
+=======
+>>>>>>> Stashed changes
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -214,8 +214,8 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.TestJava">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.test.App" />
+    <configuration name="TestJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.test.TestJava" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -226,39 +226,7 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="selenium" />
       <envs />
-    </configuration>
-    <configuration default="false" name="App" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.test" />
-      <option name="MAIN_CLASS_NAME" value="org.test.App" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="AppTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.test.AppTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="selenium" />
-      <envs />
+<<<<<<< Updated upstream
       <method />
     </configuration>
     <configuration name="TestJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -292,6 +260,8 @@
       </option>
       <envs />
       <patterns />
+=======
+>>>>>>> Stashed changes
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <module />
@@ -339,70 +309,6 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="selenium" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list />
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method />
-    </configuration>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -412,22 +318,29 @@
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
+<<<<<<< Updated upstream
     <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.App" />
       <item index="1" class="java.lang.String" itemvalue="Application.TestJava" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.TestJava" />
     </list>
+=======
+>>>>>>> Stashed changes
     <recent_temporary>
-      <list size="3">
+      <list size="1">
         <item index="0" class="java.lang.String" itemvalue="Application.TestJava" />
+<<<<<<< Updated upstream
         <item index="1" class="java.lang.String" itemvalue="JUnit.TestJava" />
         <item index="2" class="java.lang.String" itemvalue="Application.App" />
+=======
+>>>>>>> Stashed changes
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+<<<<<<< Updated upstream
   <component name="TestHistory">
     <history-entry file="AppTest - 2017.07.25 at 12h 44m 13s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
@@ -459,9 +372,13 @@
     <history-entry file="TestJava - 2017.08.03 at 13h 33m 58s.xml">
       <configuration name="TestJava" configurationId="JUnit" />
     </history-entry>
+=======
+  <component name="SvnConfiguration">
+    <configuration />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1924" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="1924" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -586,13 +503,6 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
-  <component name="atlassian-ide-plugin-workspace-issues">
-    <option name="view">
-      <JiraViewConfigurationBean>
-        <option name="viewFilterId" value="" />
-      </JiraViewConfigurationBean>
-    </option>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/org/test/TestJava.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -625,7 +535,11 @@
           <caret line="11" column="52" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="52" />
           <folding>
             <element signature="e#145#146#0" expanded="true" />
+<<<<<<< Updated upstream
             <element signature="e#208#209#0" expanded="true" />
+=======
+            <element signature="e#205#206#0" expanded="true" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
@@ -660,7 +574,11 @@
           <caret line="11" column="52" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="52" />
           <folding>
             <element signature="e#145#146#0" expanded="true" />
+<<<<<<< Updated upstream
             <element signature="e#208#209#0" expanded="true" />
+=======
+            <element signature="e#205#206#0" expanded="true" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
@@ -703,7 +621,11 @@
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="e#145#146#0" expanded="true" />
+<<<<<<< Updated upstream
             <element signature="e#208#209#0" expanded="true" />
+=======
+            <element signature="e#205#206#0" expanded="true" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
@@ -746,7 +668,11 @@
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="e#145#146#0" expanded="true" />
+<<<<<<< Updated upstream
             <element signature="e#208#209#0" expanded="true" />
+=======
+            <element signature="e#205#206#0" expanded="true" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
@@ -781,7 +707,11 @@
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="e#145#146#0" expanded="true" />
+<<<<<<< Updated upstream
             <element signature="e#208#209#0" expanded="true" />
+=======
+            <element signature="e#205#206#0" expanded="true" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
@@ -816,7 +746,11 @@
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="e#145#146#0" expanded="true" />
+<<<<<<< Updated upstream
             <element signature="e#208#209#0" expanded="true" />
+=======
+            <element signature="e#205#206#0" expanded="true" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
@@ -851,7 +785,11 @@
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="e#145#146#0" expanded="true" />
+<<<<<<< Updated upstream
             <element signature="e#208#209#0" expanded="true" />
+=======
+            <element signature="e#205#206#0" expanded="true" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
@@ -886,7 +824,11 @@
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="e#145#146#0" expanded="true" />
+<<<<<<< Updated upstream
             <element signature="e#208#209#0" expanded="true" />
+=======
+            <element signature="e#205#206#0" expanded="true" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
@@ -921,7 +863,11 @@
           <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
             <element signature="e#145#146#0" expanded="true" />
+<<<<<<< Updated upstream
             <element signature="e#208#209#0" expanded="true" />
+=======
+            <element signature="e#205#206#0" expanded="true" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
@@ -1013,7 +959,11 @@
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
             <element signature="e#145#146#0" expanded="true" />
+<<<<<<< Updated upstream
             <element signature="e#208#209#0" expanded="true" />
+=======
+            <element signature="e#205#206#0" expanded="true" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
