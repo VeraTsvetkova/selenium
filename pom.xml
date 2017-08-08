@@ -8,62 +8,109 @@
   <packaging>jar</packaging>
 
   <name>selenium</name>
-  <url>http://maven.apache.org</url>
+  <url>https://repo.maven.apache.org/maven2</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+
   <dependencies>
+
+      <dependency>
+          <groupId>commons-lang</groupId>
+          <artifactId>commons-lang</artifactId>
+          <version>2.6</version>
+          <scope>test</scope>
+      </dependency>
+
+
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
       <version>5.0.0-M4</version>
-      <scope>test</scope>
     </dependency>
 
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-engine</artifactId>
       <version>5.0.0-M4</version>
-      <scope>test</scope>
     </dependency>
-    <dependency>
-      <groupId>commons-lang</groupId>
-      <artifactId>commons-lang</artifactId>
-      <version>2.6</version>
-    </dependency>
+
+
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
       <version>3.4.0</version>
+        <scope>test</scope>
     </dependency>
 
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.12</version>
-      <scope>test</scope>
     </dependency>
+
     <dependency>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-jar-plugin</artifactId>
       <version>2.4</version>
-      <scope>test</scope>
     </dependency>
-
-
+      <dependency>
+          <groupId>org.jbehave</groupId>
+          <artifactId>jbehave-core</artifactId>
+          <version>3.8</version>
+      </dependency>
+      <dependency>
+          <groupId>org.seleniumhq.selenium</groupId>
+          <artifactId>selenium-api</artifactId>
+          <version>3.4.0</version>
+      </dependency>
+      <dependency>
+          <groupId>org.seleniumhq.selenium</groupId>
+          <artifactId>selenium-firefox-driver</artifactId>
+          <version>3.4.0</version>
+      </dependency>
   </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.jbehave</groupId>
+                <artifactId>jbehave-maven-plugin</artifactId>
+                <version>3.9.3</version>
+                <executions>
+                    <execution>
+                        <id>run-stories-as-embeddables</id>
+                        <phase>integration-test</phase>
+                        <configuration>
+                            <testSourceDirectory>${basedir}/src/test/java</testSourceDirectory>
+                            <scope>test</scope>
+                            <includes>
+                                <include>**/*Register.java</include>
+                            </includes>
+                            <ignoreFailureInStories>true</ignoreFailureInStories>
+                            <ignoreFailureInView>false</ignoreFailureInView>
+                        </configuration>
+                        <goals>
+                            <goal>run-stories-as-embeddables</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
   <distributionManagement>
     <repository>
       <id>central</id>
       <name>plugins-releases</name>
-      <url>http://serverip:8081/artifactory/plugins-release-local</url>
+      <url>https://repo.maven.apache.org/maven2</url>
     </repository>
     <snapshotRepository>
       <id>snapshots</id>
       <name>plugins-snapshot</name>
-      <url>http://serverip:8081/artifactory/plugins-snapshot-local</url>
+      <url>http://org.apache.maven:maven:pom:2.1-SNAPSHOT</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
