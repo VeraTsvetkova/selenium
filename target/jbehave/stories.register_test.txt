@@ -1,0 +1,14 @@
+
+(stories/register_test.story)
+Scenario: scenario description
+Examples:
+Given I am  on  Home Page<frontUrl>
+
+|frontUrl|
+|http://georgi.unixsol.org/programs/egn.php|
+
+Example: {frontUrl=http://georgi.unixsol.org/programs/egn.php}
+Given I am  on  Home Pagehttp://georgi.unixsol.org/programs/egn.php
+
+
+
